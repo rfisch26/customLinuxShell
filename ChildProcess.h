@@ -2,11 +2,11 @@
 #define CHILD_PROCESS_H
 
 /**
- * This source file contains the definition for the ChildProcess
+ * This file has the definition for the ChildProcess
  * class.  This class provides a convenient API to fork and execute
  * other programs.
  *
- * Copyright (C) 2020 raodm@miamiOH.edu
+ * Copyright (C) 2023 rfischmar26@gmail.com
  */
 
 #include <string>
@@ -14,10 +14,6 @@
 
 // A convenience shortcut to a vector-of-strings
 using StrVec = std::vector<std::string>;
-
-// ------------------------------------------------------------------- //
-// ****  NOTE: NEVER NEVER put "using namespace" IN A HEADER FILE  *** //
-// ------------------------------------------------------------------- //
 
 /**
  * A simple class to help with forking & executing programs in a child
@@ -71,7 +67,6 @@ protected:
         This method should be called from a child process.  Don't call
         this method directly.  Instead, call the forkNexec API method.
 
-        NOTE: This method is a copy-paste from the lecture slides.
         
         \param[in] argList The list of command-line arguments.  The
         first entry is assumed to be the command to be executed.
