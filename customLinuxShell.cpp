@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2023 fischmrl@miamioh.edu
+ * Copyright (C) 2023 rfischmar26@gmail.com
  * 
  * A program for a textual shell program analogous to bash used in Linux.
  */
