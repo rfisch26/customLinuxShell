@@ -35,11 +35,11 @@ g++ -o shell customLinuxShell.cpp ChildProcess.cpp
 
 ```
 $ ./shell
-shell> ls
+> ls
 ChildProcess.cpp  ChildProcess.h  customLinuxShell.cpp  README.md
-shell> echo hello world
+> echo hello world
 hello world
-shell> exit
+> exit
 ```
 
 ## What I Learned
