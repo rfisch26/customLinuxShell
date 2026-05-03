@@ -43,11 +43,6 @@ void setupDownload(const std::string& hostName, const std::string& path,
 void cp(std::vector<std::string>& words) {
     ChildProcess cp;
     cp.forkNexec(words);
-    std::cout << "Running:";
-    for (auto& i : words) {
-        std::cout << " " << i;
-    }
-    std::cout << std::endl;
     int exitCode = cp.wait();
     if (exitCode != 0) {
         std::cout << "Exit code: " << exitCode << std::endl;
