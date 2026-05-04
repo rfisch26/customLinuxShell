@@ -1,8 +1,6 @@
 /**
  * This source file contains the implementation for the methods 
  * in the ChildProcess class.
- *
- * Copyright (C) 2023 rfischmar26@gmail.com
  */
 
 #include <unistd.h>

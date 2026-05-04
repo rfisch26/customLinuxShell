@@ -1,16 +1,13 @@
-#ifndef CHILD_PROCESS_H
-#define CHILD_PROCESS_H
-
 /**
  * This file has the definition for the ChildProcess
  * class.  This class provides a convenient API to fork and execute
  * other programs.
- *
- * Copyright (C) 2023 rfischmar26@gmail.com
  */
 
 #include <string>
 #include <vector>
+#ifndef CHILD_PROCESS_H
+#define CHILD_PROCESS_H
 
 // A convenience shortcut to a vector-of-strings
 using StrVec = std::vector<std::string>;
